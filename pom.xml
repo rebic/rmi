@@ -13,7 +13,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.24</version>
+            <version>1.2.67</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
         <dependency>
@@ -21,7 +21,31 @@
             <artifactId>commons-collections</artifactId>
             <version>3.1</version>
         </dependency>
+        <dependency>
+            <groupId>com.graphql-java</groupId>
+            <artifactId>graphql-java</artifactId>
+            <version>2020-07-03T01-10-37-bb87d8f</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.graphql-java-kickstart/graphql-java-tools -->
+        <dependency>
+            <groupId>com.graphql-java-kickstart</groupId>
+            <artifactId>graphql-java-tools</artifactId>
+            <version>6.1.0</version>
+        </dependency>
 
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.10.5</version>
+            <!--<scope>compile</scope>-->
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/br.com.anteros/Anteros-Persistence-Core -->
+
+        <dependency>
+            <groupId>br.com.anteros</groupId>
+            <artifactId>Anteros-DBCP</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
 
